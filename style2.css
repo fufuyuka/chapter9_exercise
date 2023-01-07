@@ -27,23 +27,10 @@
   margin-right: 0;
 }
 
-.step {
-  color: #fff;
-  background-color: #FF9A4B;
-  padding: 5px 0;
-  display: inline-block;
-  position: absolute;
-}
-
-h3 {
- padding: 15px 0 5px 0;
-}
-
 .img {
+  height: 150px;
   background-size: 100%;
   background-position: bottom;
-  height: 150px;
-  margin: 10px;
 }
 
 .img1 {
@@ -56,6 +43,19 @@ h3 {
 
 .img3 {
   background-image: url(img/flow03.png);
+}
+
+.step {
+  color: #fff;
+  background-color: #FF9A4B;
+  padding: 3px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h3 {
+ padding: 15px 0 5px 0;
 }
 
 .footer {
